@@ -1,0 +1,120 @@
+/* RIGHT TO LEFT */
+#search_block_top {
+
+}
+.rtl #search_block_top {
+  left: 0;
+  right: auto;
+}
+#search_block_top #searchbox {
+  float: left;
+  width: 100%;
+}
+.rtl #search_block_top #searchbox {
+  float: right;
+}
+#search_block_top .btn.button-search {
+  background: none;
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  border: none;
+  color: #96999b;
+  text-align: center;
+  padding: 4px 9px 2px 0;
+}
+.rtl #search_block_top .btn.button-search {
+  left: 0;
+  right: auto;
+}
+.rtl #search_block_top .btn.button-search {
+  padding: 4px 0 2px 9px;
+}
+#search_block_top .btn.button-search span {
+  display: none;
+}
+#search_block_top .btn.button-search:before {
+  content: "\f002";
+  display: block;
+  font-family: "FontAwesome";
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+#search_block_top .btn.button-search:hover {
+  color: #a7d046;
+}
+
+#search_query_top {
+  background-color: #434a4e;
+  border: 1px solid #454c50;
+  color: #999;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
+  margin-bottom: 0;
+  font-size: 14px;
+  padding: 6px 15px 6px 10px;
+  width: 153px;
+  height: 30px;
+}
+#search_query_top::-moz-placeholder {
+  color: white;
+}
+
+.ac_results {
+  background: white;
+  border: 1px solid #ebeef2;
+  width: 271px;
+  margin-top: -1px;
+}
+.ac_results li {
+  padding: 0 10px;
+  font-weight: normal;
+  color: #686666;
+  font-size: 13px;
+  line-height: 22px;
+}
+.ac_results li.ac_odd {
+  background: white;
+}
+.ac_results li:hover, .ac_results li.ac_over {
+  background: #fefefe;
+}
+
+form#searchbox {
+  position: relative;
+}
+form#searchbox label {
+  color: #353d41;
+}
+form#searchbox input#search_query_block {
+  margin-right: 10px;
+  margin-right: 10px;
+  max-width: 222px;
+  display: inline-block;
+  float: left;
+}
+.rtl form#searchbox input#search_query_block {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+.rtl form#searchbox input#search_query_block {
+  float: right;
+}
+form#searchbox .button.button-small {
+  float: left;
+}
+.rtl form#searchbox .button.button-small {
+  float: right;
+}
+form#searchbox .button.button-small i {
+  margin-right: 0;
+}
+.rtl form#searchbox .button.button-small i {
+  margin-left: 0;
+  margin-right: inherit;
+}

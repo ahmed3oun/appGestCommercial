@@ -1,0 +1,20 @@
+/* RIGHT TO LEFT */
+#languages-block-top span.firstWord {
+  display: none;
+}
+#languages-block-top img {
+  float: left;
+  margin: 5px 5px 0 0;
+}
+.rtl #languages-block-top img {
+  float: right;
+}
+.rtl #languages-block-top img {
+  margin: 5px 0 0 5px;
+}
+#languages-block-top .current span {
+  float: left;
+}
+.rtl #languages-block-top .current span {
+  float: right;
+}
